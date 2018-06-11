@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201803261403237_Upgraded_To_Abp_v3_5.Designer.cs">
       <DependentUpon>201803261403237_Upgraded_To_Abp_v3_5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806110348282_Add_Task_Entity.cs" />
+    <Compile Include="Migrations\201806110348282_Add_Task_Entity.Designer.cs">
+      <DependentUpon>201806110348282_Add_Task_Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="LearningMpaAbpDataModule.cs" />
@@ -222,6 +226,7 @@
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultSettingsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultTenantCreator.cs" />
+    <Compile Include="Migrations\SeedData\DefaultTestDataForTask.cs" />
     <Compile Include="Migrations\SeedData\HostRoleAndUserCreator.cs" />
     <Compile Include="Migrations\SeedData\InitialHostDbBuilder.cs" />
     <Compile Include="Migrations\SeedData\TenantRoleAndUserBuilder.cs" />
@@ -249,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803261403237_Upgraded_To_Abp_v3_5.resx">
       <DependentUpon>201803261403237_Upgraded_To_Abp_v3_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806110348282_Add_Task_Entity.resx">
+      <DependentUpon>201806110348282_Add_Task_Entity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
